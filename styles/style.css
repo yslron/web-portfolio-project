@@ -1,0 +1,151 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /*using cssgradient.io for liniar background generator*/
+
+    background: linear-gradient(90deg, rgb(250, 250, 250) 13%, rgba(255,255,255,1) 13%, rgba(247,247,247,1) 13%, rgba(247,247,247,1) 16%, rgba(255,255,255,1) 16%, rgba(252,252,252,1) 16%);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden; /* Hide vertical scrollbar */
+  }
+.bg{
+      /*using cssgradient.io for liniar background generator*/
+    background:linear-gradient(72deg, rgba(255, 255, 255, 0) 79%, rgba(252,252,252,1) 79%, rgba(247,247,247,1) 79%, rgba(247,247,247,1) 80%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 85%, rgba(247,247,247,1) 85%, rgba(247,247,247,1) 100%, rgba(255,255,255,1) 100%);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: -5;
+    
+}
+nav{
+    height: 100px;
+}
+
+.links{
+    float: right;
+    margin-top: 20px;
+}
+nav ul li{
+    margin-right: 30px;
+    list-style-type: none;
+    display: inline;
+
+}
+nav ul li a{
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: .9rem;
+    color: rgb(255, 0, 0);
+    padding: 8px 30px 8px 30px;
+    transition: .5s all;
+    
+}
+nav ul li a:hover{
+    background-color: red;
+    border-radius: 40px;
+    color:white;
+    padding: 8px 30px 8px 30px;
+
+}
+/*body-content*/
+.pic{
+    width: 600px; 
+    height: 500px;
+}
+
+#cont-1{
+    display: flex;
+    flex-flow: row wrap;
+}
+.content-p{
+    margin: 90px 0px 0px 30px;
+    justify-content: left;
+}
+.content-p p,h1,h2,h3,h4{
+
+margin:0px;
+padding:0px;
+}
+.content-p p{
+color: rgba(255, 0, 0, 0.507);
+font-size: 2.5rem;
+
+}
+.content-p h1{
+font-family: 'Open Sans', sans-serif;
+color: rgba(255, 0, 0, 0.815);
+font-size: 4rem;
+font-weight: bold;
+margin-top: -10px;
+
+}
+.button1 {
+    margin: 50px 0px 0px 0px;
+    padding: 10px 30px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+    border-radius: 50px;
+    transition: .4s all;
+    cursor: pointer;
+    background-color: rgb(255, 24, 24);
+    color: white;
+      
+}
+.button1:hover{
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid red;
+    cursor: pointer;
+    background-color: rgba(240, 240, 240, 0);
+    color: red;
+}
+.social-icons{
+    margin: 20px 0px 0px 30px;
+}
+.social-icons img{
+    filter: brightness(0%);
+    opacity: 80%;
+    width: 25px;
+    margin:0;
+    margin-right: 20px;
+}
+.social-icons h4{
+    color: rgba(0, 0, 0, 0.829);
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.social-icons img:hover{
+    opacity: 100%;
+    cursor: pointer;
+    
+}
+
+/*static bg*/
+.pfp{
+    position: absolute;
+    width: 500px;
+    top: 180px;
+    left: 100px;
+    filter: brightness(120%);
+}
+.t-bg{
+    text-overflow: clip;
+    margin: 0 0 0 480px;
+    position: absolute;
+    top:0px;
+    font-weight: lighter;
+    font-family: 'Abril FatFace', cursive;
+    font-size: 27rem;
+    color: rgba(238, 20, 20, 0.041);
+    z-index: -3;
+
+}/**/
