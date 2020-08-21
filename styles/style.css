@@ -18,7 +18,7 @@ body {
     /*using cssgradient.io for liniar background generator*/
     background: linear-gradient(90deg, rgb(250, 250, 250) 13%, rgba(255, 255, 255, 1) 13%, rgba(247, 247, 247, 1) 13%, rgba(247, 247, 247, 1) 16%, rgba(255, 255, 255, 1) 16%, rgba(252, 252, 252, 1) 16%);
     overflow-x: hidden;
-    overflow-y: show;
+    overflow-y: visible;
     /* Hide vertical scrollbar */
 }
 
@@ -224,9 +224,8 @@ body {
 
 .social-icons img {
     filter: brightness(0%);
-    margin-right: 20px;
-    margin: 0;
-    opacity: 80%;
+    margin: 0px 14px 0px 0px;
+    opacity: .8;
     width: 25px;
 }
 
@@ -239,7 +238,7 @@ body {
 
 .social-icons img:hover {
     cursor: pointer;
-    opacity: 100%;
+    opacity: 1;
 }
 
 .extention {
@@ -307,7 +306,7 @@ body {
     }
 
     body {
-        overflow-y: show;
+        overflow-y: visible;
         overflow-x: hidden;
     }
 
@@ -407,29 +406,26 @@ body {
     }
 
     .social-icons {
-        display: inherit;
         margin: 20px 0px 0px 0px;
     }
 
     .social-icons img {
         filter: brightness(0%);
-        margin-right: 20px;
-        margin: 0;
-        opacity: 80%;
+        margin: 0px 18px 0px 0px;
+        opacity: .8;
         width: 25px;
     }
 
     .social-icons h4 {
-        color: rgba(0, 0, 0, 0.829);
+        color: rgba(110, 40, 40, 0.829);
         font-size: 1.5rem;
         font-weight: bold;
         margin-top: 10px;
     }
 
-    .social-icons img:hover {
+    .social-icons img:hover{
         cursor: pointer;
-        opacity: 100%;
-
+        opacity: 1;
     }
 
     .context {
